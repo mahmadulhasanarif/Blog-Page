@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Stand CSS Blog by TemplateMo</title>
 
@@ -57,7 +58,7 @@ https://templatemo.com/tm-551-stand-blog
                 </a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="">About Us</a>
+                <a class="nav-link" href="{{Route('about')}}">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{Route('page')}}">Blog Page</a>
@@ -66,7 +67,7 @@ https://templatemo.com/tm-551-stand-blog
                 <a class="nav-link" href="{{Route('post')}}">Post Details</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="{{Route('contact')}}">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -82,11 +83,11 @@ https://templatemo.com/tm-551-stand-blog
         <div class="row">
           <div class="col-lg-12">
             <ul class="social-icons">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Behance</a></li>
-              <li><a href="#">Linkedin</a></li>
-              <li><a href="#">Dribbble</a></li>
+              <li><a href="https://www.facebook.com">Facebook</a></li>
+              <li><a href="https://www.twitter.com">Twitter</a></li>
+              <li><a href="https://www.behance.com">Behance</a></li>
+              <li><a href="https://www.linkdin.com">Linkedin</a></li>
+              <li><a href="https://www.dribble.com">Dribble</a></li>
             </ul>
           </div>
           <div class="col-lg-12">

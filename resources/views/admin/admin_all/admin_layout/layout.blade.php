@@ -35,7 +35,7 @@
                 <div>
                     <i class="fas fa-smile-wink"> </i>
                     <b style="color: black">Admin:<br/></b>
-                    <b style="color: greenyellow">{{ Auth::user()->name }}</b>
+                    <b style="color: greenyellow">Mahmadul</b>
                 </div>
                 
             </a>
@@ -78,9 +78,9 @@
             <hr class="sidebar-divider my-0">
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="{{url('admin/contact')}}">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                    <span>Contact Message</span></a>
             </li>
             
 
@@ -331,7 +331,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="logout">Logout</a>
+                    <a class="btn btn-primary" href="{{ Route('logout') }}">Logout</a>
                 </div>
             </div>
         </div>

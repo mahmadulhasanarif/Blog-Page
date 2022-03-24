@@ -66,7 +66,7 @@
                         <span>{{$page->category->name}}</span>
                         <a><h4>{{$page->name}}</h4></a>
                         <ul class="post-info">
-                          <li><b>{{ Auth::user()->name }}</b></li>
+                          <li><b>Mahamdul</b></li>
                           <li><b>Publish: {{$page->created_at}}</b></li>
                           <li><a>12 Comments</a></li>
                         </ul>

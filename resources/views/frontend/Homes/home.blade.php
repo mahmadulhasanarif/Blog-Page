@@ -15,7 +15,7 @@
                   </div>
                   <h4>Morbi dapibus condimentum</h4>
                   <ul class="post-info">
-                    <li><a >{{Auth::user()->name}}</a></li>
+                    <li><a >Mahmadul</a></li>
                     <li><a >May 12, 2022</a></li>
                     <li><a >12 Comments</a></li>
                   </ul>
@@ -31,7 +31,7 @@
                   </div>
                   <h4>Donec porttitor augue at velit</h4>
                   <ul class="post-info">
-                    <li><a >{{Auth::user()->name}}</a></li>
+                    <li><a >Mahmadul</a></li>
                     <li><a >May 12, 2022</a></li>
                     <li><a >12 Comments</a></li>
                   </ul>
@@ -47,7 +47,7 @@
                   </div>
                   <h4>Best HTML Templates on TemplateMo</h4>
                   <ul class="post-info">
-                    <li><a >{{Auth::user()->name}}</a></li>
+                    <li><a >Mahmadul</a></li>
                     <li><a >May 12, 2022</a></li>
                     <li><a >12 Comments</a></li>
                   </ul>
@@ -63,7 +63,7 @@
                   </div>
                   <h4>Responsive and Mobile Ready Layouts</h4>
                   <ul class="post-info">
-                    <li><a >{{Auth::user()->name}}</a></li>
+                    <li><a >Mahmadul</a></li>
                     <li><a >May 12, 2022</a></li>
                     <li><a >12 Comments</a></li>
                   </ul>
@@ -79,7 +79,7 @@
                   </div>
                   <h4>Cras congue sed augue id ullamcorper</h4>
                   <ul class="post-info">
-                    <li><a >{{Auth::user()->name}}</a></li>
+                    <li><a >Mahmadul</a></li>
                     <li><a >May 12, 2022</a></li>
                     <li><a >12 Comments</a></li>
                   </ul>
@@ -95,7 +95,7 @@
                   </div>
                   <h4>Suspendisse nec aliquet ligula</h4>
                   <ul class="post-info">
-                    <li><a >{{Auth::user()->name}}</a></li>
+                    <li><a >Mahmadul</a></li>
                     <li><a >May 12, 2022</a></li>
                     <li><a >12 Comments</a></li>
                   </ul>
@@ -133,7 +133,7 @@
                         <span>{{$page->category->name}}</span>
                         <a href="post-details.html"><h4>{{$page->status}}</h4></a>
                         <ul class="post-info">
-                          <li><a>{{Auth::User()->name}}</a></li>
+                          <li><a>Mahmadul</a></li>
                           <li><a href="#">{{$page->created_at}}</a></li>
                           <li><a href="#">Comments</a></li>
                         </ul>

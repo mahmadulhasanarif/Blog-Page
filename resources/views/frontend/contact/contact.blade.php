@@ -1,6 +1,12 @@
-@extends('admin.layout.layout')
+@extends('frontend.layout.layout')
 
 @section('content')
+
+@if (Session('message'))
+<div class="alert alert-success">
+  {{ Session('message') }}
+</div>
+@endif
         <!-- Page Content -->
     <!-- Banner Starts Here -->
     <div class="heading-page header-text">
@@ -34,26 +40,27 @@
                         <h2>Send us a message</h2>
                       </div>
                       <div class="content">
-                        <form id="contact" action="" method="post">
+                        <form class="user" id="contact" action="{{Route('contact.store')}}" method="post">
+                          @csrf
                           <div class="row">
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Your name" required="">
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your name" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="email" type="text" id="email" placeholder="Your email" required="">
+                                <input name="email" class="form-control" type="text" id="email" placeholder="Your email" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-12 col-sm-12">
                               <fieldset>
-                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                                <input name="subject" class="form-control" type="text" id="subject" placeholder="Subject">
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Your Message" required=""></textarea>
+                                <textarea name="message" class="form-control" rows="4" id="message" placeholder="Your Message" required=""></textarea>
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
@@ -74,16 +81,16 @@
                       <div class="content">
                         <ul>
                           <li>
-                            <h5>090-484-8080</h5>
+                            <h5>+8801782-889864</h5>
                             <span>PHONE NUMBER</span>
                           </li>
                           <li>
-                            <h5>info@company.com</h5>
+                            <h5>mahmadulhasan991@gmail.com</h5>
                             <span>EMAIL ADDRESS</span>
                           </li>
                           <li>
-                            <h5>123 Aenean id posuere dui, 
-                                <br>Praesent laoreet 10660</h5>
+                            <h5>Mymensingh Sadar, 
+                                <br>Mymensingh</h5>
                             <span>STREET ADDRESS</span>
                           </li>
                         </ul>
@@ -96,7 +103,7 @@
             
             <div class="col-lg-12">
               <div id="map">
-                <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="450px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
             
